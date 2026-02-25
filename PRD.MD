@@ -36,3 +36,28 @@ src/
 │   └── app.routes.ts          # Rutas de la aplicación
 ├── assets/                    # Fuentes Geist y recursos estáticos
 └── styles.css                 # Directivas de Tailwind
+```
+
+---
+
+## 4. Requisitos de UI/UX (Estilo Vercel)
+
+| Elemento        | Especificación                                      |
+|-----------------|-----------------------------------------------------|
+| **Fondo**       | `#000000` (Pure Black)                              |
+| **Bordes**      | zinc-800 (1px sólido)                               |
+| **Texto**       | Principal zinc-100, Secundario zinc-400             |
+| **Cards**       | Fondo transparente o zinc-950, borde sutil, sin sombras pesadas |
+| **Interactividad** | Hover en botones con transiciones de 150ms       |
+
+---
+
+## 5. Funcionalidades del MVP
+
+### Landing Page
+
+- Sección **Hero** con gradiente sutil
+- **Grid** de features
+- **Tabla de precios:**
+  - **Plan Mensual:** $3 USD
+  - **Plan Lifetime:** $99 USD
